@@ -61,6 +61,11 @@
     button { color: inherit; }
     svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
     [hidden] { display: none !important; }
+    :host([standalone]) .app {
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
     .app {
       height: 100%;
       display: grid;
